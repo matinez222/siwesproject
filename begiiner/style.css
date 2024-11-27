@@ -1,0 +1,198 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "DM Sans", serif;
+    background-color: black;
+    color: white;
+    
+    
+
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 100px;
+    font-weight: bold;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+   
+  
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+   
+   
+}
+
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 12px;
+    
+    
+}
+
+.introduction{
+    margin-left: 100px;
+    margin-top: 233px;
+    line-height: 52.5px;
+    font-size: 25px;
+}
+
+.introduction p {
+    font-size: 18px;
+    font-weight: 500px;
+    font-family:"DM Sans", serif; 
+    
+}
+
+
+.download {
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: green;
+    font-weight: 500;
+    line-height: 18.22px; 
+    cursor: pointer;
+    padding: 10px 12px;
+   
+}
+
+.learn-more{
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: black;
+    font-weight: 500;
+    line-height: 18.22px; 
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 10px 12px;
+
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+.picture{
+   position: relative;
+    margin-right: 156px;
+   
+    
+}
+
+.info{
+    text-align: center;
+    font-family:"DM Sans", serif;
+}
+.info h3{
+    font-size: 48px;
+    font-weight: 700px ;
+    font-family:"DM Sans", serif;  
+    line-height: 62.5px;
+}
+
+.info p{
+font-size: 18px;
+font-weight: 400px ;
+font-family:"DM Sans", serif;  
+line-height: 23.44px;
+margin-top: 35px;
+}
+
+
+
+.data,
+.data1,
+.data2,
+.data3{
+    display: inline-block;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 100px;
+  }
+
+
+.data p,
+.data1 p,
+.data2 p,
+.data3 p{
+   font-size: 18px;
+   font-family:"DM Sans", serif; 
+   font-weight: 700px;
+   line-height: 23.44px;
+
+  }
+
+.data span,
+.data1 span,
+.data2 span,
+.data3 span{
+   font-size: 15px;
+   font-family:"DM Sans", serif; 
+   font-weight: 400px;
+   line-height: 23.44px;
+}
+
+
+h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 48px;
+    line-height: 62.5px;
+    font-family:"DM Sans", serif; ;
+
+}
+
+.profession {
+    display: flex;
+    background-color: #212121;
+    font-family:"DM Sans", serif; ;
+    justify-content: left;
+    font-size: 36px;
+    line-height: 46.87px;
+    font-weight: 500px;
+    height: 190px;
+    width: 325px;
+    padding-left: 35px;
+    padding-top: 90px;
+    color:#535353;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+
